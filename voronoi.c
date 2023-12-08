@@ -11,9 +11,9 @@
 // #define GRID_WIDTH 500
 // #define SEED_NUM 1000
 
-int GRID_HEIGHT = 100; // this is default, for my personal laptop, 200 is max size for terminal
-int GRID_WIDTH = 500;  // this is defaultm for my personal laptop, about 900 is max width for terminal
-int SEED_NUM = 800;
+int GRID_HEIGHT = 720; // this is default, for my personal laptop, 200 is max size for terminal
+int GRID_WIDTH = 720;  // this is defaultm for my personal laptop, about 900 is max width for terminal
+int SEED_NUM = 250;
 
 //struct tile_s* gridMatrix[100][500];
 struct tile_s ***gridMatrix;  // Pointer to a 2D array
