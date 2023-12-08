@@ -5,7 +5,7 @@ there are a few tags that are able to be passed in. \
     -? will display the rest of the tags available. \
     -h sets the height of the diagram in pixels.\
     -w sets the width of the diagram in pixels. \
-    -s will set the amount of seed pixels. \ 
+    -s will set the amount of seed pixels. \
     -m will set the distance formula to manhattan distance formula. \
     -e will set the distance formula to euclidean distance formula.
 
