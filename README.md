@@ -7,7 +7,7 @@ there are a few tags that are able to be passed in. \
     -w sets the width of the diagram in pixels. \
     -s will set the amount of seed pixels. \ 
     -m will set the distance formula to manhattan distance formula. \
-    -e will set the distance formula to euclidean distance formula. \
+    -e will set the distance formula to euclidean distance formula.
 
 program will default to. \
     euclidean distance formula. \
