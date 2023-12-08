@@ -43,7 +43,6 @@ void init_world()
 
 void free_grid()
 {
-    // Free memory for gridMatrix
     for (int i = 0; i < GRID_HEIGHT; i++)
     {
         free(gridMatrix[i]);
@@ -51,7 +50,7 @@ void free_grid()
     free(gridMatrix);
 }
 
-
+// could remove this not really needed anymore now that im writing into a ppm file
 #define BLK "\e[0;30m"
 #define RED "\e[0;31m"
 #define GRN "\e[0;32m"
@@ -65,6 +64,7 @@ void free_grid()
 #define PUR "\e[38;5;54m"
 #define ORG "\e[38;5;166m"
 
+// not used, or called as of right now
 void print_grid()
 {
     for (int i = 0; i < GRID_HEIGHT; i++)
