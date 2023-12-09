@@ -10,10 +10,10 @@ there are a few tags that are able to be passed in. \
     -e will set the distance formula to euclidean distance formula.
 
 program will default to. \
-    euclidean distance formula. \
-    720 pixel height. \
-    720 pixel width. \
-    250 seeds.
+    -euclidean distance formula. \
+    -720 pixel height. \
+    -720 pixel width. \
+    -250 seeds.
 
 
 future implimentations. \
